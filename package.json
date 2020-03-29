@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      "github:LJNeon/patron.js",
+      "C:\\Users\\Luner\\Desktop\\Coding\\okayboi"
+    ]
+  ],
+  "_from": "github:LJNeon/patron.js",
+  "_id": "patron.js@github:LJNeon/patron.js#636f0c70b34be43393542ba33d7acb81cc25c938",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/patron.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:LJNeon/patron.js",
+    "rawSpec": "github:LJNeon/patron.js",
+    "saveSpec": "github:LJNeon/patron.js",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:LJNeon/patron.js#636f0c70b34be43393542ba33d7acb81cc25c938",
+  "_spec": "github:LJNeon/patron.js",
+  "_where": "C:\\Users\\Luner\\Desktop\\Coding\\okayboi",
+  "author": {
+    "name": "ElJay#7711"
+  },
+  "bugs": {
+    "url": "https://github.com/LJNeon/patron.js/issues"
+  },
+  "dependencies": {},
+  "description": "The cleanest command framework for discord.js and eris.",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jsdoc": "^3.6.3",
+    "tui-jsdoc-template": "^1.2.2",
+    "typescript": "^3.6.3"
+  },
+  "homepage": "https://github.com/LJNeon/patron.js#readme",
+  "keywords": [
+    "bot",
+    "command",
+    "discord",
+    "discord.js",
+    "eris",
+    "framework",
+    "nodejs"
+  ],
+  "license": "AGPL-3.0-only",
+  "main": "src/index.js",
+  "name": "patron.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJNeon/patron.js.git"
+  },
+  "scripts": {
+    "docs": "jsdoc src -c jsdoc.json",
+    "lint": "eslint ./src/** --ext .js",
+    "test": "npm run lint && node src/index.js"
+  },
+  "types": "typings/index.d.ts",
+  "version": "3.1.0"
+}
